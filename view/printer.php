@@ -53,10 +53,21 @@ function print_zoomify_html() {
 	} 
 }
 
-function print_iiif_html() {
+function print_iiif_v2_manifest() {
 	global $clean;
+	printf("https://iiif-manifest.lib.uchicago.edu/gms/%s/gms-%s.json", $clean['doc'], $clean['doc']);
+}
+
+function print_iiif_v2_cv() {
+	global $clean;
+    print (int)$clean['obj'] - 1;
+}
+
+function print_iiif_iframe_src() {
+    global $clean;
+	$manifest = sprintf("https://iiif-manifest.lib.uchicago.edu/gms/%s/gms-%s.json", $clean['doc'], $clean['doc']);
     $cv = (int)$clean['obj'] - 1;
-	printf("https://iiif-viewer.lib.uchicago.edu/uv/./uv.html#?cv=%s&manifest=https://iiif-manifest.lib.uchicago.edu/gms/%s/gms-%s.json", $cv, $clean['doc'], $clean['doc']);
+    printf("https://iiif-viewer.lib.uchicago.edu/uv/uv.html#?manifest=%s&c=0&m=0&s=0&cv=%d&config=https://iiif-viewer.lib.uchicago.edu/uv-config.json&locales=en-GB:English (GB),cy-GB:Cymraeg&r=0", $manifest, $cv);
 }
 
 function print_metadata_line() {

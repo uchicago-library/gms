@@ -12,7 +12,7 @@ Collection" src="http://goodspeed.lib.uchicago.edu/images/logo.gif"/>
 </a>
 
 <div id="nametag">
-<a href="http://www.lib.uchicago.edu/e/"><img
+<a href="http://www.lib.uchicago.edu/"><img
 alt="The University of Chicago Library" src="http://goodspeed.lib.uchicago.edu/images/theuniversityofchicagolibrary.gif"/></a></div>
 
 </div>

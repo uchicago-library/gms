@@ -55,7 +55,7 @@ images."/>
 <div id="header">
 
 <div id="nametag">
-<a href="http://www.lib.uchicago.edu/e/"><img
+<a href="http://www.lib.uchicago.edu/"><img
 alt="The University of Chicago Library" src="http://goodspeed.lib.uchicago.edu/images/theuniversityofchicagolibrary.gif"/></a></div>
 
 </div><!-- /HEADER -->
@@ -101,7 +101,7 @@ research and teaching made possible by digital technologies.</p>
 <p>View reports that describe the project&rsquo;s progress and its impact on
 scholarly research.</p>
 
-<h2><a href="http://www.lib.uchicago.edu/spcl">The University of Chicago
+<h2><a href="http://www.lib.uchicago.edu/scrc">The University of Chicago
 Library Special Collections Research Center</a></h2>
 <p>Visit the home of the Goodspeed Manuscript Collection.</p>
 
