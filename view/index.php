@@ -9,7 +9,7 @@
         <script type="text/javascript" src="uv/uv-assets/js/bundle.js"></script>
         <script type="text/javascript" src="uv/uv-helpers.js"></script>
         <script type="text/javascript" src="uv-dist-umd/UV.js"></script>
-        <title>Rose and Chess</title>
+        <title>Goodspeed Manuscript Collection</title>
         <style>
             html, body {
                  height: 100%;
