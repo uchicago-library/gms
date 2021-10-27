@@ -252,13 +252,13 @@ honor of Edgar J. Goodspeed.</p>
 <p>For further information on the Goodspeed Collection and related
 print, archival, and manuscript resources, please contact:</p>
 
-<p>Special Collections Research Center<br />
+<p>Hanna Holborn Gray Special Collections Research Center<br />
 University of Chicago Library<br />
 1100 E. 57th Street<br />
 Chicago, Illinois 60637</p>
 
 <p><a href="http://www.lib.uchicago.edu/e/ask/SCRC.html">Contact the
-Special Collections Research Center</a>.</p>
+Hanna Holborn Gray Special Collections Research Center</a>.</p>
 
 </div><!--/TEXT-->
 
