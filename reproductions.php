@@ -42,19 +42,19 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 
 <p><strong>Credit Line:</strong><br/>
 Goodspeed Manuscript Collection, [manuscript number-image number,
-e.g., ms949-10], Special Collections Research Center, University of
+e.g., ms949-10], Hanna Holborn Gray Special Collections Research Center, University of
 Chicago Library.</p>
 
 <p>Commercial publication projects require the permission of the University of Chicago Library and may be subject to a use fee. For permission to copy or use any part of the Goodspeed Manuscript Collection for any commercial purposes, please contact:</p>
 
-<p>Special Collections Research Center<br/>
+<p>Hanna Holborn Gray Special Collections Research Center<br/>
 University of Chicago Library<br/>
 1100 E. 57th Street<br/>
 Chicago, Illinois 60637<br/>
 Fax: (773) 702-3728</p>
 
 <p><a href="http://www.lib.uchicago.edu/e/ask/SCRC.html">Contact the
-Special Collections Research Center</a>.</p>
+Hanna Holborn Gray Special Collections Research Center</a>.</p>
 
 <p>Please direct questions or comments to <a href="mailto:goodspeed@lib.uchicago.edu">goodspeed@lib.uchicago.edu</a>.</p>
 
