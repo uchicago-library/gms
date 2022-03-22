@@ -102,7 +102,7 @@ research and teaching made possible by digital technologies.</p>
 scholarly research.</p>
 
 <h2><a href="http://www.lib.uchicago.edu/scrc">The University of Chicago
-Library Special Collections Research Center</a></h2>
+Library Hanna Holborn Gray Special Collections Research Center</a></h2>
 <p>Visit the home of the Goodspeed Manuscript Collection.</p>
 
 <h2>Supported by:</h2>
