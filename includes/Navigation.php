@@ -90,7 +90,7 @@ class Navigation {
 		$this->clean = $clean;
 
 		session_start();
-    
+
 		$url = $_SERVER["REQUEST_URI"];
 
 		if ($url == '/' || $url == '/index.php') {
@@ -102,10 +102,11 @@ class Navigation {
 			$this->history = array(
 				parse_url($url, PHP_URL_HOST) . '/',
 				parse_url($url, PHP_URL_HOST) . '/browse/index.php');
+			$_SESSION['history'] = serialize($this->history);
 		/* if we're on a browse result page,
 		 * rebuild the breadcrumb trail. Insert the home page, and
 		 * stick the list of all browses into the middle of the trail. */
-		} else if (array_key_exists('browsetype', $clean)) {
+		} else if (isset($clean['browsetype'])) {
 			$this->history = array(
 				parse_url($url, PHP_URL_HOST) . '/',
 				parse_url($url, PHP_URL_HOST) . '/browse/index.php',
@@ -113,14 +114,14 @@ class Navigation {
 			$_SESSION['history'] = serialize($this->history);
 		/* if we're on a list page,
 		 * rebuild the breadcrumb trail. Insert the home page and the list page. */
-		} else if (array_key_exists('list', $clean)) {
+		} else if (isset($clean['list'])) {
 			$this->history = array(
 				parse_url($url, PHP_URL_HOST) . '/',
 				$url);
 			$_SESSION['history'] = serialize($this->history);
 		/* if we're on a serch result page,
  		 * rebuild the breadcrumb trail. Insert the home page and the url for this search. */
-		} else if (array_key_exists('search', $clean)) {
+		} else if (isset($clean['search'])) {
 			$this->history = array(
 				parse_url($url, PHP_URL_HOST) . '/',
 				$url);

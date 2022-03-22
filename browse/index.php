@@ -1,7 +1,7 @@
 <?php 
-function __autoload($classname) {
-  require_once(realpath(dirname(__FILE__)) . "/../includes/$classname.php");
-}
+spl_autoload_register(function ($classname) {
+	require_once(realpath(dirname(__FILE__)) . "/../includes/$classname.php");
+});
 
 $clean = new Cleaner();
 $gms = new GMS($clean);
@@ -39,7 +39,7 @@ $(document).ready(function() {
 <!-- NAVIGATION -->
 <div class="navigation">
 <?php 
-if (array_key_exists('browsetype', $clean)) { 
+if (isset($clean['browsetype'])) { 
 $navigation->printbreadcrumbs(); 
 } else { ?>
 <p id='breadcrumbs'><a href='/'>Home</a> &gt; Browse the Collection</p>

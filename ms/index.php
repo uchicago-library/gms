@@ -1,7 +1,7 @@
 <?php
-function __autoload($classname) {
+spl_autoload_register(function ($classname) {
 	require_once(realpath(dirname(__FILE__)) . "/../includes/$classname.php");
-}
+});
 
 $clean = new Cleaner();
 $navigation = new Navigation($clean);
