@@ -107,7 +107,8 @@
 
             urlDataProvider = new UV.URLDataProvider();
             var doc = getUrlVars()['doc'];
-            var manifest_uri = "https://iiif-manifest.lib.uchicago.edu/" + arks[doc];
+            var noid = arks[doc].split('/')[1];
+            var manifest_uri = "https://iiif-collection.lib.uchicago.edu/object/ark:/61001/" + noid + ".json";
 
             if ('cv' in getUrlVars()) {
                 var cv = Number(urlDataProvider.get('cv', 0));
