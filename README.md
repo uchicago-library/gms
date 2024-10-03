@@ -1,4 +1,4 @@
-# Goodspeed
+# Goodspeed Manuscript Collection Website
 
 The Goodspeed Manuscript Collection website is a legacy site built with PHP. The 
 site metadata is very high quality, and represents a lot of careful work on the part
